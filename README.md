@@ -1,7 +1,6 @@
 # UTA Advance
-Repository dedicated to save and commit changes for UTA Advance Project
+Repository dedicated to save and commit changes for UTA Advance Project.
 
-# Functions/Tools
   
   # Menu Bar Options
     1. Profile Picture
@@ -12,7 +11,7 @@ Repository dedicated to save and commit changes for UTA Advance Project
   # Courses Statistics
     Tool to display data about specific courses where the user will be able to analyze:
     - Overall class grade/letter
-    - Letter grade statistics of the class
+    - Letter grade statistics of course
     - Read/leave comments
     - Rate class/course
 
@@ -27,9 +26,13 @@ Repository dedicated to save and commit changes for UTA Advance Project
         F	Failure	                        0
           
    # Course History
-     Tool to log and track course
+     Tool to log and track user courses
        Structure:
 
           Semester:
              - Class Name
+   
+   # Secury
+     - Must use a UTA email to create an account
+     - Upload schedule in order to rate class and upload grades.
     
