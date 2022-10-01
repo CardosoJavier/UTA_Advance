@@ -6,7 +6,7 @@ Repository dedicated to save and commit changes for UTA Advance Project.
     1. Profile Picture
     2. Something / Vince photo is blurry lol
     3. Something / Vince photo is blurry lol
-    4. Status 123
+    4. Status
     
   # Courses Statistics
     Tool to display data about specific courses where the user will be able to analyze:
@@ -37,6 +37,5 @@ Repository dedicated to save and commit changes for UTA Advance Project.
      - Upload schedule in order to rate class and upload grades.
      
      
-     test2
-     test
+     
     
