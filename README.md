@@ -35,4 +35,6 @@ Repository dedicated to save and commit changes for UTA Advance Project.
    # Secury
      - Must use a UTA email to create an account
      - Upload schedule in order to rate class and upload grades.
+     
+     TEST
     
