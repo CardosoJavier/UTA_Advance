@@ -19,9 +19,9 @@ Repository dedicated to save and commit changes for UTA Advance Project.
     GPA Calculator tool using UTA GPA metric scale
     
       Letter                            Points
-        A	Excellent	                4
-        B	Good	                        3
-        C	Fair	                        2
+        A	Excellent	                      4
+        B	Good	                          3
+        C	Fair	                          2
         D	Passing, Below Average	        1
         F	Failure	                        0
           
