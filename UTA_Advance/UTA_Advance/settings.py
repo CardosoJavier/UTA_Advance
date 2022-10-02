@@ -54,7 +54,15 @@ ROOT_URLCONF = 'UTA_Advance.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
+<<<<<<< Updated upstream
         'DIRS': [],
+=======
+        'DIRS': [
+            # path to dataPage
+            BASE_DIR / 'templates'
+
+        ],
+>>>>>>> Stashed changes
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
