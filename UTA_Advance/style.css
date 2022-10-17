@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.search-field-location
+{
+    height: 50px;
+    padding: 10px;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+}
+.search-btn
+{
+    height: 50px;
+    width: 150px;
+    background: #ffeb3b;
+    border: none;
+    color: #000;
+    border-radius: 25px;
+    display: inline;
+}
+.search-btn:hover{
+    background: #ffc107;
+    cursor: pointer;
+}
+
+#form-box input{
+    width: 1000px;
+}

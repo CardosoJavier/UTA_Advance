@@ -1,0 +1,78 @@
+<!doctype html> 
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Website Homepage Design Menu</title>
+        <link href="style.css" rel="stylesheeet">
+        <style>
+            body{background-color: #0597F2;font-family: 'Oswald', sans-serif;font-size: 15px;font-weight: 400;
+            line-height: 1.5em;}                           
+            .inner_main_menu {margin: 0 auto; width: 1170px}
+            .inner_main_menu ul{margin: 0; padding: 0; list-style: none;text-align: left;}
+            .inner_main_menu ul li{float: none; display: inline-block;}
+            .inner_main_menu ul li:nth-child(1){float:right}
+            .inner_main_menu ul li:nth-child(2){float:right;}
+            .inner_main_menu ul li:nth-child(3){float: right;}
+            .inner_main_menu ul li a{color:orange; font-size: 22px; text-transform:uppercase; text-decoration:double;
+            display: block; padding: 10px 20px;}
+            .inner_main_menu ul li a:hover{color:white}
+            #main_menu{width: 100%; position: relative;}
+            .logo_area{}
+            .logo_area img { height: 150px; margin-left: 120px; margin-top: 15px;}
+            #main\ menu {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .text-input {
+                width: 200px;
+                height: 22px;
+                border-radius: 20px;
+                margin-left: 60px;
+                border: none;
+                
+            }
+            .search-btn{
+                width: -80px;
+                border-radius: 20px;
+                border: none;
+            }
+            .students-comment{
+                margin-top: 10rem;
+                color: #023047;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div id="main menu">
+            
+
+            <div class="inner_main_menu">
+                <ul>
+                    
+                    <li><a href="./gpapage/templates/gpaPage.html">GPA</a></a></li>
+                    <li><a href="./chartsPages/chartPage.html">Courses</a></a></li>
+                    <li><a href="./logIn/logIn.html">Sign Out</a></a></li>
+                </ul>
+            </div>
+            <div class="main-content">
+                <div class="logo_area">
+                    <a href=""><img src="horse.png.png" alt=""></a>    
+                </div>
+                <div id="form-box">
+                        <input class="text-input" type="text"
+                        placeholder="      Search Professor">
+                        <button class="search-btn" 
+                        type="button">Search</button>
+
+                </div>
+                <div class="students-comment">
+                    <h1>From Students To Students</h1>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

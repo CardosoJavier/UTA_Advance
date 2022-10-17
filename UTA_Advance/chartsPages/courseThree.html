@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charts</title>
+    <link rel="stylesheet" href="chartStyle.css">
+</head>
+
+<!-- Body starts here -->
+<body>
+    
+    <!-- Search Bar and courses -->
+    <nav id="courseBar">
+
+        <!-- search bar -->
+        <div id="searchBar">
+            <form action="">
+                <input type="text" placeholder="CSE 132O Losh Summer 2022">
+            </form>
+        </div>
+
+        <div id="coursesBtns">
+           <!-- first Course -->
+           <a href="courseOne.html">
+            <button>
+                CSE 2315
+                Tiernan
+                Fall 2019
+            </button>
+        </a>
+        
+        
+        <!-- second Course -->
+        <a href="courseTwo.html">
+            <button>
+                CSE 1310
+                Stefan
+                Spring 2021
+            </button>
+        </a>
+
+        <!-- third Course -->
+        <a href="courseThree.html">
+            <button>
+                CSE 3302
+                Jason Losh
+                Summer 2017
+            </button>
+        </a>
+
+        </div>
+    </nav>
+
+    <!-- Chart Display -->
+    <div id="chart-Container">
+        <a id="Homebtn" href="../homePage.html">Home</a>
+        <h1 >CSE 3302 Joson Losh Summer 2017</h1>
+        
+
+
+        <div id="chartDisplay">
+            <canvas id="myChart"></canvas>
+        </div> 
+    </div>
+
+    <!-- Comment Section -->
+    <div id="comment-Container">
+
+        <div class="comments">
+            <div class="comment">
+              <span class="avatar"></span>
+              <p class="comment-text">Welcome to the comment section</p>
+            </div>
+          </div>
+          <input
+            id="comment-input"
+            type="text"
+            placeholder="Your comment here..."
+          />
+          <button class="button" id="add-comment">Add comment</button>
+        </div>
+    
+        
+        
+    </div>
+
+
+    <script src="chartsIndex.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+
+function showChart() {
+    const data = {
+        labels: [
+            'A',
+            'B',
+            'C',
+            'D',
+            'F',
+            'W',
+        ],
+        datasets: [{
+            label: 'My First Dataset',
+
+            data: [9, 21, 8, 3, 9, 3],
+            backgroundColor: [
+            'rgb(142, 202, 230)',
+            'rgb(33, 158, 188)',
+            'rgb(18, 103, 130)',
+            'rgb(2, 48, 71)',
+            'rgb(255, 27, 28)',
+            'rgb(251, 133, 0)',
+            ],
+            hoverOffset: 4
+        }],
+        options: {
+            responsive: true
+        },
+    };
+    
+    const config = {
+        type: 'doughnut',
+        data: data,
+      };
+    
+      let chartElement = document.getElementById("myChart")
+      let chart = new Chart(chartElement, config)
+      
+      
+}
+
+    showChart();
+    </script>
+</body>
+</html>

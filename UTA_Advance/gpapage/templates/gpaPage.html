@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GP Calculator</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="./static/styles.css">
+    
+    
+    
+</head>
+<body>
+    
+    
+    <div class="wrapper">
+        <div class="nav">
+            <h1>GPA CALCULATOR</h1>  
+            <a href="../../homePage.html"><button>Home</button></a>
+        </div>
+        
+        <div class="form-row">
+            <div class="col">
+                <input id="course-code" class="form-control" type="text" placeholder="COURSE NAME">
+            </div>
+            <div class="col">
+                <input id="unit-load" class="form-control" type="number" placeholder="CREDIT HOURS" min="1" max="15">
+            </div>  
+            <div class="col">
+                <select id="grade" class="form-control">
+                    <option value="">GRADE</option>
+                    <option value="4">A</option>
+                    <option value="3">B</option>
+                    <option value="2">C</option>
+                    <option value="1">D</option>
+                    <option value="0">F</option>
+                </select>
+            </div>
+            <div class="col">
+                <input id="add" class="btn btn-primary" type="button" value="ADD A COURSE">
+
+            </div>
+        </div>
+        <table id="table" class="table table-bordered display-none">
+            <thead>
+                <tr>
+                    <th>COURSE CODE</th>
+                    <th>CREDIT HOURS</th>
+                    <th>GRADE</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+            <tfoot id="tfoot">
+
+            </tfoot>
+        </table>
+        <div class="row">
+            <div class="col">
+                <input id="calc-gp" class="btn btn-success display-none" type="button" value="CALCULATE GPA">
+            </div>
+            <div class="col">
+            <input id="clear" class="btn btn-warning display-none" type="button" value="RESET">
+            </div>
+        </div>
+    </div>
+    <img src=" mavupgif.gif "> 
+
+    <script src="main.js"></script>
+
+</body>
+</html>
